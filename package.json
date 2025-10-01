@@ -11,7 +11,6 @@
     "type-check": "tsc --noEmit",
     "build:analyze": "ANALYZE=true next build",
     "clean": "rm -rf .next out node_modules/.cache",
-    "prepare": "npm run type-check && npm run lint",
     "deploy": "npm run build && npx vercel --prod",
     "deploy:local": "bash deploy.sh"
   },

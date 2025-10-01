@@ -3,7 +3,6 @@
 import React, { useRef } from 'react'
 import Wrapper from './Wrapper'
 import Image from 'next/image'
-import logo from '../../public/logo-1.png'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
@@ -37,7 +36,7 @@ const Navbar = () => {
     <Wrapper>
             <div className='flex justify-center md:justify-between items-center md:py-3 py-5'>
                 <div className='logo '>
-                    <Image  src={logo} width={130} height={130} alt='logo'/>
+                    <Image  src="/logo-1.png" width={130} height={130} alt='logo'/>
                 </div>
                 <div className='hidden md:flex justify-between md:w-1/2 isi'>
                     <p>Home</p>
